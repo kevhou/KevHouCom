@@ -1,0 +1,249 @@
+/*----------HTML----------*/
+html{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	}
+body{
+	border: 1px solid rgba(0,0,0,0.2);
+	margin: 45px auto;
+	max-width: 1100px;
+	padding: 0px 120px 0px 120px;
+}
+@media (max-width: 1100px) {
+	body{
+		border: 0px;
+		margin: 45px auto;
+	}	
+}
+/*----------HTML----------*/
+
+
+
+/*----------FONT----------*/
+@font-face{	
+	font-family: Didot;
+	src: url(/font/Didot.ttc);
+}
+/*----------FONT----------*/
+
+
+
+/*----------LOGO----------*/
+#header h1{
+	text-align: center;
+	font-size: 130px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	height: 128px;
+	font-family: "didot";
+	letter-spacing: 15px;
+}
+#header h2{
+	text-align: center;
+	color: rgba(0,0,0,1);
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-family: "arial";
+	letter-spacing: 14.5px;
+}
+/*----------LOGO----------*/
+
+
+
+/*----------HEADER 2----------*/
+h2{
+	color: rgba(0,0,0,0.2);
+	margin-top: 0px;
+	margin-bottom: 90px;
+	font-size: 13px;
+	font-family: "arial";
+	letter-spacing: 6px;
+}
+/*----------HEADER 2----------*/
+
+
+
+/*----------MENU----------*/
+#nav ul{
+	display: inline;
+	padding:0;
+}
+#nav li{
+	display: inline;
+	width: 100px;
+	margin: 20px;
+	font-size: 13px;
+	font-family: "arial";
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+/*----------MENU----------*/
+
+
+
+/*----------NAVI----------*/
+a.header{
+	text-decoration: none;
+	color: black;
+}
+a.nav{
+	text-decoration: none;
+	color: rgba(0,0,0,0.35);
+}
+a.nav:hover{
+	color: rgba(0,0,0,1);
+	border-bottom: 3px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0,0,0,0.3);
+}
+a.active{
+	color: rgba(0,0,0,1);
+	text-decoration: none;
+	border-bottom: 3px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0,0,0,0.3);
+}
+/*----------NAVI----------*/
+
+
+
+/*----------ALIGN----------*/
+.left { 
+	float: left; 
+	text-align: left; 
+	width: 33%; 
+} 
+
+.ctr { 
+	float: left; 
+	text-align: center; 
+	width: 33%; 
+} 
+
+.rt { 
+	float: right;
+	text-align: right:
+	width: 33%; 
+} 
+/*----------ALIGN----------*/
+
+
+
+/*----------INDEX----------*/
+#index h1{
+	font-size: 25px;
+	font-family: "cambria";
+	font-weight: normal;
+	letter-spacing: 7px;
+}
+#index h2{
+	color: rgba(0,0,0,0.3);
+	font-size: 15px;
+	font-family: "cambria";
+	letter-spacing: 1px;
+	margin: 0;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+#index p{
+	text-align: justify;
+	font-size: 19px;
+	max-width: 670px;
+	line-height: 120%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+	padding: 0px 100px 0px 100px;
+	font-family: "candara";
+	letter-spacing: 1px;
+}
+#index img{
+	margin-bottom: 50px;
+}
+/*----------INDEX----------*/
+
+
+
+/*----------RESUME----------*/
+#resume{
+	text-align: justify;
+	font-size: 20px;
+	max-width: 670px;
+	margin: 0 auto;
+}
+#resume ul{
+	display: block;
+	padding:0;
+}
+#resume li{
+	display: block;
+	padding:0;
+}
+#resume li.special{
+	margin-top: 30px;
+}
+#resume h2{
+	color: rgba(0,0,0,0.8);
+	font-size: 25px;
+	font-family: "helvetica";
+	letter-spacing: 2px;
+	margin: 0;
+	margin-top: 30px;
+	height: 13px;
+}
+#resume h2.special{
+	margin-top: 68px;
+}
+#resume h3{
+	margin-left: 50px;
+	margin-top: 30px;
+	font-family: "helvetica";
+	color: rgba(0,0,0,0.5);
+	height: 10px;
+}
+#resume h4{
+	margin-left: 100px;
+	margin-top: 0px;
+	font-family: "arial";
+	color: rgba(0,0,0,0.5);
+	height: 0px;
+}
+#resume p{
+	margin-left: 100px;
+	margin-bottom: 20px;
+	font-family: "arial";
+	color: rgba(0,0,0,0.5);
+}
+#resume a{
+	text-align: left; 
+	width: 80%; 
+}
+#resume section{
+	text-decoration: none;
+	color: rgba(0,0,0,0.5);
+	margin-left: 50px;
+	margin-bottom: 3px;
+	letter-spacing: 0.5px;
+	font-family: "arial";
+	font-size: 20px;
+}
+#resume .align{
+	float: left; 
+	text-align: left; 
+	width: 120px; 
+}
+#resume a.header{
+	color: rgba(0,0,0,0.5);
+}
+#resume a.header:hover{
+	color: rgba(0,0,0,1);
+	border-bottom: 3px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0,0,0,0.3);
+	font-family: "arial";
+}
+/*----------RESUME----------*/
