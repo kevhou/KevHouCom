@@ -6,11 +6,11 @@ html{
 	}
 body{
 	border: 1px solid rgba(0,0,0,0.2);
-	margin: 45px auto;
-	max-width: 1100px;
-	padding: 0px 120px 0px 120px;
+	margin: 20px auto;
+	max-width: 800px;
+	padding: 0px 100px 0px 100px;
 }
-@media (max-width: 1100px) {
+@media (max-width: 800px) {
 	body{
 		border: 0px;
 		margin: 45px auto;
@@ -32,17 +32,17 @@ body{
 /*----------LOGO----------*/
 #header h1{
 	text-align: center;
-	font-size: 130px;
-	margin-top: 20px;
+	font-size: 125px;
+	margin-top: 10px;
 	margin-bottom: 0;
-	height: 128px;
+	height: 124px;
 	font-family: "didot";
 	letter-spacing: 15px;
 }
 #header h2{
 	text-align: center;
 	color: rgba(0,0,0,1);
-	font-size: 18px;
+	font-size: 16px;
 	margin-bottom: 10px;
 	font-family: "arial";
 	letter-spacing: 14.5px;
@@ -55,8 +55,8 @@ body{
 h2{
 	color: rgba(0,0,0,0.2);
 	margin-top: 0px;
-	margin-bottom: 90px;
-	font-size: 13px;
+	margin-bottom: 85px;
+	font-size: 14px;
 	font-family: "arial";
 	letter-spacing: 6px;
 }
@@ -72,8 +72,8 @@ h2{
 #nav li{
 	display: inline;
 	width: 100px;
-	margin: 20px;
-	font-size: 13px;
+	margin: 14px;
+	font-size: 14px;
 	font-family: "arial";
 	font-weight: bold;
 	letter-spacing: 1.5px;
@@ -138,15 +138,16 @@ a.active{
 	font-family: "cambria";
 	font-weight: normal;
 	letter-spacing: 7px;
+	height: 25px;
 }
 #index h2{
 	color: rgba(0,0,0,0.3);
-	font-size: 15px;
+	font-size: 16px;
 	font-family: "cambria";
 	letter-spacing: 1px;
 	margin: 0;
-	margin-top: 15px;
-	margin-bottom: 30px;
+	margin-top: 5px;
+	margin-bottom: 35px;
 }
 #index p{
 	text-align: justify;
@@ -164,7 +165,7 @@ a.active{
 	margin-bottom: 50px;
 }
 #index img:hover{
-	opacity: 0.5;
+	opacity: 0.3;
 }
 /*----------INDEX----------*/
 
