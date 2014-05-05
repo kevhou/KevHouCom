@@ -163,6 +163,9 @@ a.active{
 #index img{
 	margin-bottom: 50px;
 }
+#index img:hover{
+	opacity: 0.5;
+}
 /*----------INDEX----------*/
 
 
