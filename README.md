@@ -1,4 +1,4 @@
-kevhou
+KevHou
 ======
 
 My personal website.
