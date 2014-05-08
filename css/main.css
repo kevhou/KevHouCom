@@ -10,7 +10,7 @@ body{
 	max-width: 800px;
 	padding: 0px 100px 0px 100px;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 	body{
 		border: 0px;
 		margin: 45px auto;
